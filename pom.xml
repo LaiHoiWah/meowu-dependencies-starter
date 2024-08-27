@@ -31,6 +31,7 @@
         <!-- meowu -->
         <meowu-starter-commons.version>0.0.1</meowu-starter-commons.version>
         <meowu-starter-web.version>0.0.1</meowu-starter-web.version>
+        <meowu-starter-mybatis.version>0.0.1</meowu-starter-mybatis.version>
     </properties>
 
     <dependencyManagement>
@@ -77,6 +78,12 @@
                 <groupId>com.meowu.starter</groupId>
                 <artifactId>web</artifactId>
                 <version>${meowu-starter-web.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.meowu.starter</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${meowu-starter-mybatis.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
