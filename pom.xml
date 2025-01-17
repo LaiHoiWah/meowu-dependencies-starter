@@ -33,9 +33,9 @@
         <!-- java connect -->
         <connect-h2.version>2.3.232</connect-h2.version>
         <!-- meowu -->
-        <meowu-starter-commons.version>0.0.1</meowu-starter-commons.version>
-        <meowu-starter-web.version>0.0.1</meowu-starter-web.version>
-        <meowu-starter-mybatis.version>0.0.1</meowu-starter-mybatis.version>
+<!--        <meowu-starter-commons.version>0.0.1</meowu-starter-commons.version>-->
+<!--        <meowu-starter-web.version>0.0.1</meowu-starter-web.version>-->
+<!--        <meowu-starter-mybatis.version>0.0.1</meowu-starter-mybatis.version>-->
     </properties>
 
     <dependencyManagement>
@@ -91,23 +91,11 @@
             </dependency>
 
             <!-- meowu -->
-            <dependency>
-                <groupId>com.meowu.starter</groupId>
-                <artifactId>commons</artifactId>
-                <version>${meowu-starter-commons.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.meowu.starter</groupId>
-                <artifactId>web</artifactId>
-                <version>${meowu-starter-web.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.meowu.starter</groupId>
-                <artifactId>mybatis</artifactId>
-                <version>${meowu-starter-mybatis.version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>com.meowu.starter</groupId>-->
+<!--                <artifactId>commons</artifactId>-->
+<!--                <version>${meowu-starter-commons.version}</version>-->
+<!--            </dependency>-->
         </dependencies>
     </dependencyManagement>
 

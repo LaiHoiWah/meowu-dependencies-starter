@@ -1,2 +1,2 @@
-# meowu-spring-boot-start-dependencies
-Dependencies for spring boot
+# meowu-start-dependencies
+Dependencies for Meowu Project
