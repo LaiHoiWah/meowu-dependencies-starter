@@ -32,9 +32,13 @@
         <mybatis.version>3.0.3</mybatis.version>
         <!-- java connect -->
         <connect-h2.version>2.3.232</connect-h2.version>
+        <!-- apache -->
+        <apache.commons-codec.version>1.15</apache.commons-codec.version>
+        <apache.commons-collection4.version>4.4</apache.commons-collection4.version>
+        <apache.commons-lang3.version>3.12.0</apache.commons-lang3.version>
         <!-- meowu -->
-<!--        <meowu-starter-commons.version>0.0.1</meowu-starter-commons.version>-->
-<!--        <meowu-starter-web.version>0.0.1</meowu-starter-web.version>-->
+        <meowu-commons-starter.version>0.0.1</meowu-commons-starter.version>
+        <meowu-web-starter.version>0.0.1</meowu-web-starter.version>
 <!--        <meowu-starter-mybatis.version>0.0.1</meowu-starter-mybatis.version>-->
     </properties>
 
@@ -90,12 +94,37 @@
                 <version>${connect-h2.version}</version>
             </dependency>
 
+            <!-- apache -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${apache.commons-lang3.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-collections4</artifactId>
+                <version>${apache.commons-collection4.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${apache.commons-codec.version}</version>
+            </dependency>
+
             <!-- meowu -->
-<!--            <dependency>-->
-<!--                <groupId>com.meowu.starter</groupId>-->
-<!--                <artifactId>commons</artifactId>-->
-<!--                <version>${meowu-starter-commons.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.meowu.starter</groupId>
+                <artifactId>commons</artifactId>
+                <version>${meowu-commons-starter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.meowu.starter</groupId>
+                <artifactId>web</artifactId>
+                <version>${meowu-web-starter.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
