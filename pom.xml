@@ -39,7 +39,7 @@
         <!-- meowu -->
         <meowu-commons-starter.version>0.0.1</meowu-commons-starter.version>
         <meowu-web-starter.version>0.0.1</meowu-web-starter.version>
-<!--        <meowu-starter-mybatis.version>0.0.1</meowu-starter-mybatis.version>-->
+        <meowu-data-starter.version>0.0.1</meowu-data-starter.version>
     </properties>
 
     <dependencyManagement>
@@ -124,6 +124,18 @@
                 <groupId>com.meowu.starter</groupId>
                 <artifactId>web</artifactId>
                 <version>${meowu-web-starter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.meowu.starter</groupId>
+                <artifactId>data-core</artifactId>
+                <version>${meowu-data-starter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.meowu.starter</groupId>
+                <artifactId>mybatis-plugins</artifactId>
+                <version>${meowu-data-starter.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
